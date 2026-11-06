@@ -1,0 +1,30 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Local editor and environment settings
+.vscode/
+.idea/
+.env
+.env.*
+
+# Models, checkpoints, embeddings, and runtime logs
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.log
+
+# Generated machine-specific manifests and development splits.
+# These CSV files contain absolute local dataset paths; regenerate them locally.
+dataset/manifests/
+dataset/internal_dev/
+dataset/esb_prompt/
+
+# Miscellaneous runtime artifacts
+nohup.out
+*.tmp
